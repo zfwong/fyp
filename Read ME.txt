@@ -1,0 +1,9 @@
+1. Shift 'stock_system' folder inside wampserver www directory folder.
+
+2. Open phpmyadmin create database name 'stock'.
+
+3. Open 'stock' and import 'stock.sql' inside the 'stock_system' folder.
+
+4. Open wampserver localhost and open 'stock_system'.
+
+5. Login using this username: admin, password: password.(Admin level)

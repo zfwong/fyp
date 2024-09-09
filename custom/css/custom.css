@@ -1,0 +1,496 @@
+nav.navbar:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.div-hide {
+	display: none;
+}
+
+div.plus {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a[title="Help"] {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+span.logo>img {
+	height: 100%;
+	padding: 15px;
+	width: auto;
+}
+
+span.logo>img {
+	padding: 7px 15px;
+}
+
+span.logo {
+	display: inline;
+	color: black;
+}
+
+body {
+	padding-top: 70px;
+	padding-right: 0 !important;
+	margin-right: 0 !important;
+	background: url('bg-image3.jpg') no-repeat fixed center;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+.content-container {
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.body-loaded {
+	opacity: 1;
+}
+
+.vertical {
+	padding-top: 45px;
+	padding-bottom: 40px;
+}
+
+input#username,
+input#password {
+	height: 50px;
+	padding: 15px;
+	font-size: 16px;
+	background: transparent;
+	box-shadow: inset -0.5px -0.5px 5px black;
+	color: white;
+	border: none;
+	cursor: pointer;
+	text-indent: 17px;
+}
+
+input#username::-webkit-input-placeholder,
+input#password::-webkit-input-placeholder {
+	color: lightgrey;
+}
+
+input#username:focus,
+input#password:focus {
+	color: white;
+}
+
+div.l-content {
+	padding-top: 5px;
+	background: rgba(128, 128, 128, 0.8);
+	border-radius: 10px;
+	box-shadow: inset 0px 1px 5px white, 1px 0px 5px black;
+}
+
+div.l-header {
+	color: white;
+	margin-bottom: 20px;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+.breadcrumb a:hover {
+	text-decoration: none !important;
+}
+
+.breadcrumb li.active {
+	color: black !important;
+}
+
+.breadcrumb {
+	background: rgba(255, 255, 255, 0.4);
+}
+
+div.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 100%;
+	text-align: center;
+}
+
+div.cardHeader {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px;
+}
+
+div.cardContainer {
+	padding: 10px;
+	background-color: white;
+}
+
+div.cardHeader h1 {
+	font-size: 50px;
+}
+
+div.cardHeader h2 {
+	font-size: 36px;
+}
+
+.fc-highlight {
+	background-color: #ff3352 !important;
+}
+
+.fc-unthemed td.fc-today {
+	background-color: #ccc !important;
+}
+
+td.fc-day-top.fc-today {
+	background-color: transparent !important;
+}
+
+div.fc-left button,
+div.fc-right button {
+	margin: 0 !important;
+	float: left !important;
+	border-radius: 5px;
+}
+
+.fc-corner-left {
+	border-radius: 0 !important;
+}
+
+button.fc-listWeek-button.fc-button {
+	margin-right: 10px !important;
+	border-radius: 4px 4px 4px 4px !important;
+}
+
+button.fc-month-button {
+	border-radius: 4px 0 0 4px !important;
+}
+
+button.fc-today-button {
+	border-radius: 0 4px 4px 0 !important;
+}
+
+button.fc-prev-button {
+	border-radius: 4px 0 0 4px !important;
+}
+
+button.fc-next-button {
+	border-radius: 0 4px 4px 0 !important;
+}
+
+button:focus {
+	outline: 0 !important;
+}
+
+span.fc-day-number {
+	margin: 5px 5px 0 0 !important;
+}
+
+a.fc-day-number {
+	color: black !important;
+}
+
+a.fc-day-number:link {
+	color: black !important;
+}
+
+a.fc-day-number:hover {
+	text-decoration: none !important;
+	color: hotpink!important;
+	font-weight: bolder;
+}
+
+a.fc-day-number:visited {
+	color: black !important;
+}
+
+a.fc-day-number:active {
+	color: hotpink !important;
+}
+
+a.fc-list-heading-alt {
+	color: black !important;
+}
+a.fc-list-heading-alt:link {
+	color: black !important;
+}
+a.fc-list-heading-alt:hover {
+	text-decoration: none !important;
+}
+a.fc-list-heading-alt:visited {
+	color: black !important;
+}
+a.fc-list-heading-alt:active {
+	color: black !important;
+}
+
+a.fc-list-heading-main {
+	color: black !important;
+}
+a.fc-list-heading-main:link {
+	color: black !important;
+}
+a.fc-list-heading-main:hover {
+	text-decoration: none !important;
+}
+a.fc-list-heading-main:visited {
+	color: black !important;
+}
+a.fc-list-heading-main:active {
+	color: black !important;
+}
+
+.fc-day-header a{
+	color: black !important;
+}
+
+.fc-day-header a:link {
+	color: black !important;
+}
+
+.fc-day-header a:hover {
+	text-decoration: none !important;
+	color: hotpink !important;
+	font-weight: bold;
+}
+
+.fc-day-header a:visited {
+	color: black !important;
+}
+
+.fc-day-header a:active {
+	color: hotpink !important;
+}
+
+.fc-other-month {
+	opacity: 0.5 !important;
+}
+
+.fc-event-container:hover {
+	cursor: pointer;
+}
+
+input.form-control:disabled {
+	cursor: default;
+	border: none;
+	background: none;
+}
+
+input.form-control[type="color"]:disabled {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+textarea.form-control:disabled {
+	cursor: default;
+	background: none;
+	max-width: 100%;
+}
+
+textarea.form-control {
+	width: 100% !important;
+}
+
+input[type="color"] {
+	width: 57px !important;
+	height: 45px !important;
+}
+
+i.fa.fa-check.enlarge {
+	font-size: 65px !important;
+	margin-top: 40px;
+	border: 3px solid;
+	border-radius: 50%;
+	padding: 20px;
+	color: green;
+}
+
+i.glyphicon.glyphicon-remove.enlarge {
+	font-size: 65px !important;
+	margin-top: 40px;
+	border: 3px solid;
+	border-radius: 50%;
+	padding: 20px;
+	color: red;
+}
+
+div.modal-header.borderless {
+	padding-bottom: 0;
+}
+
+div.modal-footer.borderless {
+	margin-bottom: 15px;
+}
+
+div.modal-header.borderless,
+div.modal-body.solid-text,
+div.modal-body.translucent {
+	padding: 0;
+	margin: 15px;
+}
+
+div.modal-body.translucent {
+	opacity: 0.5;
+}
+
+div.modal-header.borderless,
+div.modal-footer.borderless {
+	border-bottom: none !important;
+	border-top: none !important;
+}
+
+button.btn.btn-info.enlarge{
+	padding: 8px 28px 8px 28px;
+	font-size: 16px;
+	opacity: 0.65;
+}
+
+#manageEventTable tbody tr {
+	text-align: left;
+}
+
+tr.odd:hover,
+tr.even:hover {
+	background-color: none;
+	color: hotpink;
+}
+
+ul.nav.nav-tabs li a:link {
+	color: #b2b5ba;
+}
+
+ul.nav.nav-tabs li.active a {
+	color: black;
+}
+
+ul.nav.nav-tabs li a:active {
+	color: black;
+}
+
+.dropdown-menu>.active>a {
+	background-color: #e7e7e7 !important;
+	color: black !important;
+	background-image: linear-gradient(to bottom,#dbdbdb 0,#e2e2e2 100%);
+	box-shadow: inset 0 3px 9px rgba(0,0,0,.075);
+}
+
+.dropdown-menu>.active>a:hover {
+	background-image: none !important;
+}
+
+.bottom-fixed {
+	background: transparent;
+	bottom: 0;
+	right: 0;
+	position: fixed;
+	width: 150px;
+	height: 150px;
+	/*opacity: 1;*/
+	/*transition: opacity 1s linear;*/
+}
+
+/*.disappear {
+	opacity: 0;
+}*/
+
+.outer-border {
+	width: 125px;
+	height: 125px;
+	border: 2.5px solid transparent;
+	border-top: 2.5px solid lightgreen;
+	border-radius: 50%;
+	right: 20px;
+	bottom: 20px;
+	position: absolute;
+	animation: spin 1s linear infinite;
+}
+
+.middle-border {
+	width: 100px;
+	height: 100px;
+	border: 2.5px solid transparent;
+	border-top: 2.5px solid lightblue;
+	border-radius: 50%;
+	right: 32.5px;
+	bottom: 32.5px;
+	position: absolute;
+	animation: spin 0.75s linear infinite;
+}
+
+.inner-border {
+	width: 75px;
+	height: 75px;
+	border: 2.5px solid transparent;
+	border-top: 2.5px solid hotpink;
+	border-radius: 50%;
+	right: 45px;
+	bottom: 45px;
+	position: absolute;
+	animation: spin 0.5s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/*
+.bottom-fixed {
+	width: 300px;
+	height: 300px;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+}
+
+.outer-border {
+	border: solid transparent;
+	border-top: solid lightgreen;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	bottom: 47px;
+	right: 47px;
+	left: 47px;
+	top: 47px;
+	position: absolute;
+	animation: spin 1s linear infinite;
+}
+
+.middle-border {
+	border: solid transparent;
+	border-top: solid lightblue;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	bottom: 72px;
+	right: 72px;
+	left: 72px;
+	top: 72px;
+	position: absolute;
+	animation: spin 0.75s linear infinite;
+}
+
+.inner-border {
+	border: solid transparent;
+	border-top: solid hotpink;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	bottom: 97px;
+	right: 97px;
+	left: 97px;
+	top: 97px;
+	position: absolute;
+	animation: spin 0.5s linear infinite;
+}*/
+
+/*disable highlight when user drag with mouse click*/
+/*body { 
+	user-select: none;
+	cursor: default;
+}*/
+
+/*mouse click highlight selection color*/
+/*::selection {
+	background-color: none;
+	color: hotpink;
+}*/
