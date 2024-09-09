@@ -37,7 +37,7 @@
 <div class="modal fade" tabindex="-1" role="dialog" id="addCategoriesModal">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header" style="background: url(../stock_system/custom/css/bg-image3.jpg) center fixed no-repeat;background-size: contain;color: white;border-radius: 5px 5px 0 0;">
+      <div class="modal-header" style="background: url(../stock_system/custom/css/bg-image3.jpg) center fixed no-repeat;background-size: cover;color: white;border-radius: 5px 5px 0 0;">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title"><i class="fa fa-plus"></i>&nbsp;&nbsp;Add Category</h4>
       </div>
@@ -79,7 +79,7 @@
 <div class="modal fade" tabindex="-1" role="dialog" id="editCategoriesModal">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header" style="background: url(../stock_system/custom/css/bg-image3.jpg) center fixed no-repeat;background-size: contain;color: white;border-radius: 5px 5px 0 0;">
+      <div class="modal-header" style="background: url(../stock_system/custom/css/bg-image3.jpg) center fixed no-repeat;background-size: cover;color: white;border-radius: 5px 5px 0 0;">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title"><i class="fa fa-edit"></i>&nbsp;&nbsp;Edit Category</h4>
       </div>
@@ -123,7 +123,7 @@
 <div class="modal fade" tabindex="-1" role="dialog" id="removeCategoriesModal">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header" style="background: url(../stock_system/custom/css/bg-image3.jpg) center fixed no-repeat;background-size: contain;color: white;border-radius: 5px 5px 0 0;">
+      <div class="modal-header" style="background: url(../stock_system/custom/css/bg-image3.jpg) center fixed no-repeat;background-size: cover;color: white;border-radius: 5px 5px 0 0;">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title"><i class="glyphicon glyphicon-trash"></i>&nbsp;&nbsp;Remove Category</h4>
       </div>
@@ -141,7 +141,7 @@
 <div class="modal fade" tabindex="-1" role="dialog" id="showHelpModal">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header" style="background: url(../stock_system/custom/css/bg-image3.jpg) center fixed no-repeat;background-size: contain;color: white;border-radius: 5px 5px 0 0;">
+      <div class="modal-header" style="background: url(../stock_system/custom/css/bg-image3.jpg) center fixed no-repeat;background-size: cover;color: white;border-radius: 5px 5px 0 0;">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title"><i class="glyphicon glyphicon-info-sign"></i>&nbsp;&nbsp;Help</h4>
       </div>

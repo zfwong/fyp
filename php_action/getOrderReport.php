@@ -23,7 +23,7 @@ if ($_POST) {
 				<th style="border-bottom:1px solid grey;">Contact</th>
 				<th style="border-bottom:1px solid grey;">Grand Total</th>
 			</tr>';
-			$totalAmount = "";
+			$totalAmount = 0;
 			if ($query->num_rows > 0) {	
 				while ($row = $query->fetch_assoc()) {
 					$table .= 

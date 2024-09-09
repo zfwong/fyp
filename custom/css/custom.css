@@ -39,6 +39,7 @@ body {
 	padding-right: 0 !important;
 	margin-right: 0 !important;
 	background: url('bg-image3.jpg') no-repeat fixed center;
+	background-size: cover;
 	font-family: 'Trebuchet MS', Helvetica, sans-serif;
 	font-size: 15px;
 }
